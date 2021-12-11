@@ -4,7 +4,7 @@ The files in this repository were used to configure the network depicted below.
 
 ![Network Diagram](diagram/Unit%2013%20Project%20Diagram.png)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YML playbook file may be used to install only certain pieces of it, such as Filebeat.
 
 - filebeat.yml
 
@@ -86,7 +86,7 @@ This ELK server is configured to monitor the following machines:
 - 10.1.0.6
 
 We have installed the following Beats on these machines:
-- filebeat-7.6.1-darwin-x86_64.tar.gz
+- filebeat-7.6.1-amd64.deb
 
 These Beats allow us to collect the following information from each machine:
 - Filebeat collects the user’s system data (logs) and send it to Kibana where the user can more accurately assess the flow of traffic. The user can expect all traffic and the geographic location it is coming from.  This helps identify potential attacks. 
@@ -101,7 +101,7 @@ SSH into the control node and follow the steps below:
 
 _ Answer the following questions to fill in the blanks: 
 
-- Which file is the playbook? Where do you copy it?_
+- Which file is the playbook? Where do you copy it?
 
 filebeat.yml, install-elk.yml, metricbeat.yml
 

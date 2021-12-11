@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+[Network Diagram](Project 1 Diagram.drawio.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -89,7 +89,7 @@ We have installed the following Beats on these machines:
 - filebeat-7.6.1-darwin-x86_64.tar.gz
 
 These Beats allow us to collect the following information from each machine:
-- Filebeat collects the userís system data (logs) and send it to Kibana where the user can more accurately assess the flow of traffic. The user can expect all traffic and the geographic location it is coming from.  This helps identify potential attacks. 
+- Filebeat collects the user‚Äôs system data (logs) and send it to Kibana where the user can more accurately assess the flow of traffic. The user can expect all traffic and the geographic location it is coming from.  This helps identify potential attacks. 
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
@@ -105,7 +105,7 @@ _ Answer the following questions to fill in the blanks:
 
 filebeat.yml, install-elk.yml, metricbeat.yml
 
-- You update the ìhostsî file to include the virtual machines that ansible is to be ran on. Secondly, You list below the ìwebserversî a new category specifically for ìELKî and list that machine in that category. 
+- You update the ‚Äúhosts‚Äù file to include the virtual machines that ansible is to be ran on. Secondly, You list below the ‚Äúwebservers‚Äù a new category specifically for ‚ÄúELK‚Äù and list that machine in that category. 
 
 - Which URL do you navigate to in order to check that the ELK server is running? http://[your.VM.IP]:5601/app/kibana
 

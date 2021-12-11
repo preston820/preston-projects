@@ -72,7 +72,7 @@ The playbook implements the following tasks:
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 
-
+![Docker Elk](Elk-Server-Container.png)
 
 
 
@@ -133,4 +133,6 @@ _As a **Bonus**, provide the specific commands the user will need to run to down
 Run playbook:ansible-playbook filebeat.yml
 
 Edit Playbook: Nano (name of yml file)
+
+![filebeat-playbook](Filebeat-playbook.png)
 
